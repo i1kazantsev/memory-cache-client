@@ -1,5 +1,7 @@
 # @i1k/memory-cache-client
 
+[![npm version](https://img.shields.io/npm/v/@i1k/memory-cache-client/latest.svg)](https://www.npmjs.com/package/@i1k/memory-cache-client)
+
 Memory cache client with the same interface as [@ik/smart-cache-manager](https://github.com/ivan1kazantsev/smart-cache-manager#readme).
 Uses [lru-cache](https://github.com/isaacs/node-lru-cache#readme) under the hood.
 
