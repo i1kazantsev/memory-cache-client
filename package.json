@@ -1,6 +1,6 @@
 {
   "name": "@i1k/memory-cache-client",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Ivan Kazantsev",
   "license": "MIT",
   "description": "Memory cache client with the same interface as @ik/smart-cache-manager.",
