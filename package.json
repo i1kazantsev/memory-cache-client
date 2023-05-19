@@ -24,7 +24,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "pnpm lint:js && pnpm lint:prettier",
     "lintfix": "prettier --write --list-different . && pnpm lint:js -- --fix",
-    "release": "pnpm lint && pnpm test && standard-version",
+    "release": "pnpm lint && pnpm test && pnpm build && standard-version",
     "prepare": "husky install"
   },
   "lint-staged": {
