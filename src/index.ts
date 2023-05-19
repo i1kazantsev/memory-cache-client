@@ -1,12 +1,12 @@
 import { ICacheClient, StringOrGlobPattern } from '@i1k/smart-cache-manager'
 
-import LRUCache, { Options } from 'lru-cache'
+import { LRUCache } from 'lru-cache'
 import micromatch from 'micromatch'
 
 class MemoryCacheClient implements ICacheClient {
   private _client: LRUCache<string, string>
 
-  constructor(options: Options<string, string>) {
+  constructor(options: LRUCache.Options<string, string, unknown>) {
     this._client = new LRUCache(options)
   }
 
