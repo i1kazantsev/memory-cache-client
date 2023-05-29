@@ -19,8 +19,8 @@ devDependencies:
     specifier: ^17.4.4
     version: 17.4.4
   '@i1k/smart-cache-manager':
-    specifier: 0.0.4
-    version: 0.0.4
+    specifier: 0.0.14
+    version: 0.0.14
   '@types/jest':
     specifier: ^29.5.0
     version: 29.5.0
@@ -644,8 +644,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@i1k/smart-cache-manager@0.0.4:
-    resolution: {integrity: sha512-p0ruJvgtY1MVEx8ubu/UhXPAsJougWZjoO1JyEJAjRSop52EM3ij59sELnGl4JwllCoFEpQ0gs8Ymb730rw5LA==}
+  /@i1k/smart-cache-manager@0.0.14:
+    resolution: {integrity: sha512-UmfzykabFA5Cjl7T8eQVVOUBMB3wST/fGG2Lg98HJHv4apBajKIjWMy5/hdiSS0Vuuh+HOsINmQ+6/OGpUiBQw==}
     dev: true
 
   /@isaacs/cliui@8.0.2:
